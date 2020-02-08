@@ -6,6 +6,18 @@ h1 {
     font-family: Tangerine, serif;
 }
 
+#secondary-navbar, #footer {
+    background-color: hotpink;
+}
+
+.link-item, #footer {
+    color: white;
+}
+
+.link-item:hover {
+    color: black;
+}
+
 #eve-logo {
     font-family: Tangerine, serif;
     font-size: larger;
