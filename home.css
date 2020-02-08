@@ -35,3 +35,27 @@ h1 {
     transform: scale(1.1);
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
 }
+
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+#avatar-1 {
+    background-image: url("images/girl1.jpg");
+}
+
+#avatar-2 {
+    background-image: url("images/girl2.jpg");
+}
+
+#avatar-3 {
+    background-image: url("images/girl3.jpg");
+}
+
+#avatar-4 {
+    background-image: url("images/girl4.jpg");
+}
+
