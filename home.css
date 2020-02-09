@@ -6,6 +6,11 @@ h1 {
     font-family: Tangerine, serif;
 }
 
+h3 {
+    font-size: medium;
+    font-weight: bold;
+}
+
 #secondary-navbar, #footer {
     background-color: hotpink;
 }
@@ -45,7 +50,7 @@ h1 {
 
 .box:hover {
     transform: scale(1.1);
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .avatar {
