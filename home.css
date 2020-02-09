@@ -11,6 +11,10 @@ h3 {
     font-weight: bold;
 }
 
+input, select, textarea {
+    border: none;
+}
+
 #secondary-navbar, #footer {
     background-color: hotpink;
 }
@@ -76,3 +80,59 @@ h3 {
     background-image: url("images/girl4.jpg");
 }
 
+#second-section {
+    background-color: lightblue;
+}
+
+.reset-this {
+    all: initial;
+    font-family: Raleway, serif;
+}
+
+.redo-fieldset {
+    border: 2px solid hotpink;
+    padding: 20px;
+}
+
+.redo-legend {
+    color: hotpink;
+}
+
+.required {
+    color: red;
+}
+
+#second-section-title {
+    text-align: center;
+    padding: 20px;
+    font-family: Tangerine, serif;
+    font-size: 2.5rem;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+}
+
+#book-btn {
+    border: none;
+    background-color: hotpink;
+    color: white;
+}
+
+#book-btn:hover {
+    color: black;
+}
+
+input, #date, #time, textarea, select {
+    border-radius: 3px;
+    background-color: white;
+}
+
+#date, #time {
+    height: 38px;
+}
+
+#date {
+    width: 170px;
+}
+
+#time {
+    width: 140px;
+}
