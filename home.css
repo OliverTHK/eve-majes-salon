@@ -81,7 +81,7 @@ input, select, textarea {
     background-image: url("images/girl4.jpg");
 }
 
-#second-section {
+#third-section {
     background-color: lightblue;
 }
 
@@ -103,7 +103,7 @@ input, select, textarea {
     color: red;
 }
 
-#second-section-title {
+#third-section-title {
     text-align: center;
     padding: 20px;
     font-family: Tangerine, serif;
