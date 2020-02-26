@@ -20,10 +20,6 @@ h1, h2 {
     font-size: 3rem;
 }
 
-.mv-title {
-    letter-spacing: normal;
-}
-
 .about-title, .contact-title {
     font-size: 2.5rem;
 }
@@ -33,7 +29,7 @@ h3 {
     font-weight: bold;
 }
 
-input, select, textarea {
+.appointment-form, .contact-form {
     border: none;
 }
 
@@ -198,8 +194,4 @@ textarea {
 
 #send-btn:hover {
     background-color: rgb(252, 88, 170);
-}
-
-.contact-form {
-    border: none;
 }
