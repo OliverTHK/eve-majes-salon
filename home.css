@@ -7,6 +7,11 @@ body {
     letter-spacing: 1px;
 }
 
+.card {
+    background-color: lightblue;
+    border: none;
+}
+
 h1, h2 {
     font-family: Tangerine, serif;
 }
@@ -19,7 +24,7 @@ h1, h2 {
     letter-spacing: normal;
 }
 
-.about-title {
+.about-title, .contact-title {
     font-size: 2.5rem;
 }
 
@@ -128,13 +133,13 @@ input, select, textarea {
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
 }
 
-#book-btn {
+#book-btn, #send-btn {
     border: none;
     background-color: hotpink;
     color: white;
 }
 
-#book-btn:hover {
+#book-btn:hover, #send-btn:hover {
     color: black;
 }
 
@@ -153,4 +158,48 @@ input, #date, #time, textarea, select {
 
 #time {
     width: 140px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+textarea {
+    resize: none;
+}
+
+.contact-btn {
+    color: hotpink;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.contact-btn:hover {
+    color: black;
+}
+
+.card-body {
+    border: none;
+}
+
+#send-btn {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#send-btn:hover {
+    background-color: rgb(252, 88, 170);
+}
+
+.contact-form {
+    border: none;
 }
