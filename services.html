@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="home.css">
     <title>Eve's Nail Majestic Salon - Services</title>
 </head>
 
@@ -68,14 +68,85 @@
             </ul>
         </div>
     </nav>
-    <main class="page landing-page">
-        <section id="first-section" class="h-100 p-5 mb-5">
-            <div class="text-center mt-5 mb-5 my-auto">
-                <h2>Be Majestic. Be Elegant.</h2>
-                <p>Beauty starts from fingernails.</p>
-                <button class="btn btn-outline-light btn-lg" type="button">Learn More</button>
+    <main class="page">
+            <div id="services" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#services" data-slide-to="0" class="active"></li>
+                    <li data-target="#services" data-slide-to="1"></li>
+                    <li data-target="#services" data-slide-to="2"></li>
+                    <li data-target="#services" data-slide-to="3"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/manicure-1.jpg" alt="Manicure" width="1100" height="500">
+                        <div class="carousel-caption text-body">
+                            <h3>Manicure</h3>
+                            <p>Polishing, Massaging, Filling & Shaping, Cuticle Trimming, Buffing</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/pedicure-feet.png" alt="Pedicure" width="1100" height="500">
+                        <div class="carousel-caption text-body">
+                            <h3>Pedicure</h3>
+                            <p>Soaking, Polishing, Massaging, Filling & Shaping, Cuticle Trimming, Buffing</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/manicure-pedicure-1.jpg" alt="Manicure and Pedicure" width="1100" height="500">
+                        <div class="carousel-caption text-body">
+                            <h3>Manicure & Pedicure</h3>
+                            <p>A whole package that covers all.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/nail-enhancement-1.jpg" alt="Nail Enhancement (Acrylic Nails)" width="1100" height="500">
+                        <div class="carousel-caption text-body">
+                            <h3>Nail Enhancement (Acrylic Nails)</h3>
+                            <p>Cutting & Shaping, Cuticle Trimming
+                            <br>Can choose white tip, pearl tip, colour tip, design tip or glitter tip.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#services" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#services" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
             </div>
-        </section>
+            <section id="design-art-section" class="h-100 p-5 mb-5">
+                <h2 id="design-art-title"><b>Nail Design & Art</b></h2>
+                <div class="card-columns">
+                    <div class="card m-3 w-100 design-art-cards" style="width:400px">
+                        <img class="card-img-top" src="images/tone-1.jpg" alt="Tone" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Tone</h4>
+                            <p class="card-text">Mixture of 2 colours on a single nail for 10 fingers.</p>
+                        </div>
+                    </div>
+                    <div class="card m-3 w-100 design-art-cards" style="width:400px">
+                        <img class="card-img-top" src="images/gradient.png" alt="Gradient" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Gradient</h4>
+                            <p class="card-text">Mixture of 3 colours & above on a single nail for 10 fingers.</p>
+                        </div>
+                    </div>
+                    <div class="card m-3 w-100 design-art-cards" style="width:400px">
+                        <img class="card-img-top" src="images/top-coat.jpg" alt="Matte Top Coat" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Matte Top Coat</h4>
+                            <p class="card-text">Matte surface finishing of your nail design.</p>
+                        </div>
+                    </div>
+                    <div class="card m-3 w-100 design-art-cards" style="width:400px">
+                        <img class="card-img-top" src="images/just-colour.jpg" alt="Just Colour" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Just Colour</h4>
+                            <p class="card-text">Base coat, colour, cuticle oil.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
     </main>
     <footer>
         <div class="text-center pt-2 pb-2" id="footer">Copyright &copy; 2020
