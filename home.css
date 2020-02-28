@@ -51,16 +51,19 @@ h3 {
     color: #ff07ff;
 }
 
-#first-section, #hidden-first-section {
+#first-section {
     background: url("images/background-image.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
 }
 
-/* #hidden-first-section {
-    background-color: lightblue;
-} */
+#hidden-first-section {
+    background: url("images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
 
 #hidden-btn:hover {
     background-color: hotpink;
