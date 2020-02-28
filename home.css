@@ -16,7 +16,7 @@ h1, h2 {
     font-family: Tangerine, serif;
 }
 
-#attractive {
+#attractive, #hidden-attractive {
     font-size: 3rem;
 }
 
@@ -56,6 +56,21 @@ h3 {
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
+}
+
+#hidden-first-section {
+    background-color: lightblue;
+}
+
+#hidden-btn:hover {
+    background-color: hotpink;
+    border: 1px solid hotpink;
+}
+
+.hidden-span {
+    color: hotpink;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    font-weight: bold;
 }
 
 #testimonial-container {
