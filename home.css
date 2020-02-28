@@ -201,3 +201,8 @@ textarea {
 #send-btn:hover {
     background-color: rgb(252, 88, 170);
 }
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: hotpink;
+    border: none;
+}
