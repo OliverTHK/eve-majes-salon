@@ -223,9 +223,14 @@
                 document.getElementById('phone-number').setAttribute('style', 'background-color: lightcoral;');
                 document.getElementById('book-btn').setAttribute('data-target', '#cancel');
             }
-            else
+            else if($('#date').val()=='') {
+                document.getElementById('date').setAttribute('style', 'background-color: lightcoral;');
+                document.getElementById('book-btn').setAttribute('data-target', '#cancel');
+            }
+            else {
+                document.getElementById('date').setAttribute('style', 'background-color: white;');
                 document.getElementById('book-btn').setAttribute('data-target', '#messageFrame');
-
+            }
         });
     </script>
 </body>
