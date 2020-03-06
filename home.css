@@ -261,3 +261,12 @@ textarea {
 .insta:hover {
     text-decoration: none;
 }
+
+#ok-btn {
+    background-color: hotpink;
+    color: white;
+}
+
+#ok-btn:hover {
+    color: black;
+}
